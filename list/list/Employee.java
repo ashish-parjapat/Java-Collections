@@ -2,10 +2,10 @@ package list;
 
 public class Employee  implements Comparable{
 
-    int Empid;
-    String Ename;
-    double Sal;
-    int Deptno;
+    public int Empid;
+    public String Ename;
+    public double Sal;
+    public int Deptno;
 
 
     public Employee(int Empid,String Ename,double Sal,int Deptno){
